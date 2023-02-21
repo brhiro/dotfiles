@@ -1,0 +1,7 @@
+[user]
+	name = brhiro
+	email = 49073956+brhiro@users.noreply.github.com
+[core]
+	editor = nvim
+[init]
+	defaultBranch = main
