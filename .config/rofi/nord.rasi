@@ -1,0 +1,94 @@
+/*
+ * modified nord.rasi
+ */
+
+configuration {
+  font: "Mononoki NF 11";
+
+  drun {
+    display-name: "";
+  }
+
+  run {
+    display-name: "";
+  }
+
+  window {
+    display-name: "";
+  }
+
+  timeout {
+    delay: 10;
+    action: "kb-cancel";
+  }
+}
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  spacing: 0;
+
+  bg: #282A2E;
+  fg: #FFFFFF;
+  fg-alt: #EBCB8B;
+
+  background-color: @bg;
+  text-color: @fg;
+}
+
+window {
+  transparency: "real";
+  width: 25%;
+  anchor: north;
+  y-offset: -15%;
+}
+
+mainbox {
+  children: [inputbar, listview];
+}
+
+inputbar {
+  background-color: @bg;
+  children: [prompt, entry];
+  border: 4px 4px 4px 4px;
+  border-radius: 10px 10px 0px 0px;
+  border-color: @fg-alt;
+}
+
+entry {
+  background-color: inherit;
+  padding: 12px 3px;
+}
+
+prompt {
+  background-color: inherit;
+  padding: 12px;
+  text-color: @fg-alt;
+}
+
+listview {
+  fixed-height: true;
+  lines: 3;
+  border: 0px 4px 4px 4px;
+  border-radius: 0px 0px 10px 10px;
+  border-color: @fg-alt;
+}
+
+element {
+  children: [element-icon, element-text];
+}
+
+element-icon {
+  padding: 10px 10px;
+}
+
+element-text {
+  padding: 10px 0;
+}
+
+element-text selected {
+  /* text-transform: bold; */
+  text-color: @fg-alt;
+}
+
