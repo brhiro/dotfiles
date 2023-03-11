@@ -178,6 +178,7 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 
 # gaps
 gaps inner 10px
+gaps top -5px
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
