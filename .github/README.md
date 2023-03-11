@@ -1,6 +1,8 @@
-dotfiles for my minimal, barebones arch setup with i3
+dotfiles for my arch setup with i3
 
-![image](https://user-images.githubusercontent.com/49073956/220308184-6723ce17-8f37-4f0f-b6bb-a8c42b9fc82a.png)
+![image](https://user-images.githubusercontent.com/49073956/221408769-68b97417-fa3b-4e68-8457-0825eb37d88a.png)
+![image](https://user-images.githubusercontent.com/49073956/221408779-2e5b2a77-c24b-4b33-a222-45e66288fe57.png)
+
 
 ```
 mkdir .dotfiles
