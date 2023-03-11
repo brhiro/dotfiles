@@ -65,6 +65,9 @@ default_floating_border pixel 0
 floating_minimum_size 75 x 50
 floating_maximum_size 1024 x 576
 
+# disable focus wrapping
+focus_wrapping no
+
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
